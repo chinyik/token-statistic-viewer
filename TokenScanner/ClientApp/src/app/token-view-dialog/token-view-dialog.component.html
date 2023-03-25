@@ -1,0 +1,34 @@
+<h1 mat-dialog-title>{{data.contractAddress}}</h1>
+<div mat-dialog-content>
+  <div class="card-row row">
+    <table>
+      <tr>
+        <th>Price: </th>
+        <td>
+          {{data.price}}
+        </td>
+      </tr>
+      <tr>
+        <th>Total Supply: </th>
+        <td>
+          {{data.totalSupply}}
+        </td>
+      </tr>
+      <tr>
+        <th>Total Holders: </th>
+        <td>
+          {{data.totalHolders}}
+        </td>
+      </tr>
+      <tr>
+        <th>Name: </th>
+        <td>
+          {{data.name}}
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="closeDialog()" cdkFocusInitial>Close</button>
+</div>
