@@ -78,9 +78,9 @@ INSERT INTO `tokens` (`symbol`, `name`, `total_supply`, `contract_address`,
 - Can be added by filling up each input
 - Clicking Save button will add the cryptocurrency details in MySQL database and refresh the chart and table data
 
-![Add cryptocurrency](https://github.com/chinyik/token-statistic-viewer/blob/main/Resources/TokenScanner_AddToken1.png?raw=true)
-![New cryptocurrency in the table](https://github.com/chinyik/token-statistic-viewer/blob/main/Resources/TokenScanner_AddToken2.png?raw=true)
-![New cryptocurrency in the chart](https://github.com/chinyik/token-statistic-viewer/blob/main/Resources/TokenScanner_AddToken3.png?raw=true)
+![Add cryptocurrency](https://github.com/chinyik/token-statistic-viewer/blob/main/Resources/TokenScanner_AddToken_1.png?raw=true)
+![New cryptocurrency in the table](https://github.com/chinyik/token-statistic-viewer/blob/main/Resources/TokenScanner_AddToken_2.png?raw=true)
+![New cryptocurrency in the chart](https://github.com/chinyik/token-statistic-viewer/blob/main/Resources/TokenScanner_AddToken_3.png?raw=true)
 
 ### Edit Cryptocurrency
 - Can be accessed by clicking Edit on each cryptocurrency row in the table
